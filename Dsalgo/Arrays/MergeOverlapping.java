@@ -16,6 +16,7 @@ class MergeOverlapping {
         Arrays.sort(a, new Comparator<Interval>() {
             public int compare(Interval l1, Interval l2) {
                 return l1.start - l2.start;
+
             }
         });
 
